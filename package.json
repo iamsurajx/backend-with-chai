@@ -1,24 +1,28 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "backend-with-chai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Learning the backed with chai aur code..",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/iamsurajx/backend-with-chai.git"
   },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "author": "Suraj",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/codesandbox-app/static-template/issues"
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "dependencies": {}
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.1"
+  }
 }
